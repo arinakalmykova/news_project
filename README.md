@@ -13,24 +13,30 @@
 ## Структура проекта
 ```
 news_project/
+│
 ├── app/
-│   ├── controller/            # Контроллеры
-│   │   └── NewsController.php
-│   ├── model/                 # Работа с БД
-│   │   └── datanews.php
-│   ├── view/                  # Представления
-│   │   ├── news_list.php
-│   │   ├── news_detail.php
-│   │   └── layout.php
-├── core/
-│   └── db.php                 # Подключение к базе
+│ ├── controller/ # Контроллер - для соединения запросов из БД с представлениями
+|   └── NewsController.php
+|
+│ ├── model/ # Класс для получения информации из БД 
+|   └── datanews.php
+|
+│ ├── view/ # Представления
+|   └── news_list.php # общая страница
+|   └── news_detail.php # детальная страница
+|   └── layout.php # футер и хедер
+| 
+| ├── core/ # Класс для подключения к базе данных и создания экземпляра подключения
+│    └── db.php 
+|
 ├── public/
-│   ├── images/
-│   └── css/
-│       └── style.php
-├── config.php
-├── index.php
-└── README.md
+│ ├── images/ # Загруженные изображения
+│ ├── css/ # Стили сайта
+|    └── style.php  
+│
+├── config.php # Конфигурация подключения к базе данных
+├── index.php # Главная точка входа 
+└── README.md # Информация о проекте
 ```
 
 
