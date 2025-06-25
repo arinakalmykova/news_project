@@ -59,5 +59,5 @@ news_project/
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/твой-профиль/твой-проект.git
+   git clone https://github.com/arinakalmykova/news_project
 
