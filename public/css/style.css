@@ -408,9 +408,23 @@ font-size: 20px;
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .news-columns {
+ .news-columns {
     grid-template-columns: 1fr;
     gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .news-text {
+    width: 100%;
+    order: 2; 
+  }
+  
+  .news-image {
+    order: 1; 
+    min-width: 100%;
+    height: auto;
+    max-height: 400px;
   }
   .late_list {
     min-height: 500px;
@@ -478,5 +492,19 @@ font-size: 20px;
   .pagination a.pag-arrow {
     width: 80px;
     height: 40px;
+  }
+  .news-columns {
+    margin-left: 15px;
+    margin-right: 15px;
+    gap: 20px;
+  }
+  
+  .news-image {
+    max-height: 300px;
+  }
+  
+  .btn-detail {
+    width: 100%;
+    justify-content: center;
   }
 }
