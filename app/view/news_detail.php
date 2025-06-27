@@ -15,7 +15,9 @@
       </a>
  </div>
     </div>
-    <div class="news-image" style="background-image: url('/news_project/public/images/<?= $item['image'] ?>')">
-    </div>
+   <div class="news-image">
+  <img src="/news_project/public/images/<?= htmlspecialchars($item['image']) ?>" alt="<?= htmlspecialchars($item['title']) ?>">
+</div>
+
   </article>
 </section>
